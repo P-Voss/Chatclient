@@ -1,0 +1,11 @@
+
+const ChatActionTypes = {
+    CONNECT_WS: 'CONNECT_WS',
+    DISCONNECT_WS: 'DISCONNECT_WS',
+    RECEIVE_MESSAGE: 'RECEIVE_MESSAGE',
+    RECEIVE_ERROR: 'RECEIVE_ERROR',
+    SEND_MESSAGE: 'SEND_MESSAGE',
+    SWITCH_ROOM: 'SWITCH_ROOM',
+};
+
+export default ChatActionTypes;
